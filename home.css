@@ -300,6 +300,7 @@ footer img{
         align-items: center;
         margin-left: 1rem;
         margin-right: 1rem;
+        margin-top: 1rem;
     }
     .texto button{
         margin-top: 10px;
@@ -317,7 +318,7 @@ footer img{
     }
     .texto h2{
         padding-left: 0px;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         margin-bottom: 0.9rem;
     }
 }
