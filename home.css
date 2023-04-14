@@ -68,12 +68,14 @@ header {
     margin: 0px 10rem 0px 10rem;
     background-color: rgb(255, 230, 0);
     height: 550px;
+    border-radius: 25px;
 }
 .texto{
     background-color: rgb(255, 230, 0);
     text-align: center;
     align-items: center;
     justify-content: center;
+    border-radius: 25px;
 }
 .texto h1{
     background-color: rgb(255, 230, 0);
@@ -104,6 +106,7 @@ header {
     padding: 5px;
     margin-top: 10px;
     position: absolute;
+    animation: go-back 1s infinite alternate;
     left: 23%;
 }
 
