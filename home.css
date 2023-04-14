@@ -82,7 +82,7 @@ header {
     padding-left: 50px;
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 2.8rem;
-    color: rgb(250, 44, 181);
+    color: rgb(252, 87, 197);
     padding-bottom: 18px;
 }
 .texto h2{
@@ -97,12 +97,12 @@ header {
 
 .texto button{
     display: flex;
-    background-color: rgb(43, 217, 248);
+    background-color: rgb(114, 234, 255);
     font-size: 1.5rem;
     font-family: 'Gilroy-Regular', sans-serif;
     font-weight: bold;
     border-radius: 15px;
-    border-color: rgb(43, 217, 248);
+    border-color: rgb(114, 234, 255);
     padding: 5px;
     margin-top: 10px;
     position: absolute;
@@ -154,13 +154,13 @@ header {
 }
 .sobre button{
     display: flex;
-    background-color: rgb(255, 0, 212);
+    background-color: rgb(252, 87, 197);
     font-size: 2rem;
     color: white;
     font-family: 'Gilroy-Regular', sans-serif;
     font-weight: bold;
     border-radius: 15px;
-    border-color: rgb(255, 0, 212);
+    border-color: rgb(252, 87, 197);
     padding: 10px;
     margin: 0 auto;
     animation: go-back 1s infinite alternate;
