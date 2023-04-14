@@ -26,7 +26,7 @@
                 <button onclick="menuShow()"><img class="icon" src="assets/list.svg" alt=""></button>
             </div>
         </nav>
-        <div class="mobile-menu" onclick="menuClose()">
+        <div class="mobile-menu">
             <ul>
                 <li class="nav-item" ><a href="#" class="nav-link">Início</a></li>
                     <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
@@ -82,7 +82,7 @@
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon1').src = "assets/list.svg";
+        document.querySelector('.icon').src = "assets/list.svg";
     }
     else {
         menuMobile.classList.add('open');
