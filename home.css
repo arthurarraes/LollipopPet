@@ -1,0 +1,395 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    text-decoration: none;
+    background-color: rgb(252, 248, 234);
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #000000;
+    font-weight: 400;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.a1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    font-family: 'Poppins';
+    margin: 0px 10rem 0px 10rem;
+    background-color: rgb(255, 230, 0);
+    height: 550px;
+}
+.texto{
+    background-color: rgb(255, 230, 0);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.texto h1{
+    background-color: rgb(255, 230, 0);
+    padding-left: 50px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 2.8rem;
+    color: rgb(255, 0, 170);
+    padding-bottom: 18px;
+}
+.texto h2{
+    background-color: rgb(255, 230, 0);
+    padding-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(76, 0, 255);
+}
+
+.texto button{
+    display: flex;
+    background-color: rgb(0, 217, 255);
+    font-size: 1.5rem;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    border-color: rgb(0, 217, 255);
+    padding: 5px;
+    margin-top: 10px;
+    position: absolute;
+    left: 23%;
+}
+
+.imagem{
+    background-color: rgb(255, 230, 0);
+    border-radius: 25px;
+}
+.imagem img{
+    background-color: rgb(255, 230, 0);
+    border-radius: 25px;
+    display: flex;
+    align-items: flex-end;
+    width: 618px;
+    height: 393.43px;
+}
+.sobre{
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.sobre img{
+    display: flex;
+    margin:0 auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.sobre h1{
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.sobre h2{
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: justify;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+@keyframes go-back {
+	from {
+		transform: translatey(15px);
+	}
+	to {
+		transform: translatey(0);
+	}
+}
+.sobre button{
+    display: flex;
+    background-color: rgb(255, 0, 212);
+    font-size: 2rem;
+    color: white;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    border-color: rgb(255, 0, 212);
+    padding: 10px;
+    margin: 0 auto;
+    animation: go-back 1s infinite alternate;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.servico h1{
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+.servico {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+}
+.servico ul{
+    list-style-type: disc;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    background-color: rgb(1, 1, 75);
+    color: white;
+    align-items: center;
+}
+footer .a{
+    background-color: rgb(1, 1, 75);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mapa{
+    background-color: rgb(1, 1, 75);
+}
+footer a{
+    background-color: rgb(1, 1, 75);
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+}
+footer img{
+    background-color: rgb(1, 1, 75);
+    margin-right: 5px;
+}
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+        align-items: center;
+    }
+    .nav-item {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open {
+        display: block;
+    }
+    .close{
+        display: none;
+    }
+    .sobre{
+        padding-top: 5.5rem;
+    }
+    .sobre h2{
+        font-size: 1rem;
+    }
+    .sobre h1{
+        font-size: 1.3rem;
+    }
+    .sobre img{
+        width: 100%;
+    }
+
+    footer{
+        grid-template-columns: 1fr;
+    }
+    footer a{
+        font-size: 1rem;
+    }
+    footer .mapa iframe{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .servico h1{
+        font-size: 1.5rem;
+    }
+    .servico li{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:414px){
+    .a1{
+        grid-template-columns: 1fr;
+        margin: 0px 1% 0px 1%;
+        border-radius: 0px;
+        height: 250px;
+        width: 98%;
+        margin-top: 1rem;
+    }
+    .imagem{
+        display: flex;
+        border-radius: 25px;
+    justify-content: center;
+    padding-bottom: 1rem;
+    }
+    .imagem img{
+        border-radius: 0;
+    width: calc(618px / 2.5);
+    height: calc(393.43px / 2.5);
+    padding-bottom: 1rem;
+    }
+    .texto{
+        border-radius: 0px;
+        text-align: center;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .texto button{
+        margin-top: 10px;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 0.8rem;
+        position:static;
+        padding: 2px;
+        margin:0 auto;
+    }
+    .texto h1{
+        padding-top: 1rem;
+        padding-left: 0px;
+        font-size: 1rem;
+    }
+    .texto h2{
+        padding-left: 0px;
+        font-size: 0.7rem;
+        margin-bottom: 0.6rem;
+    }
+}
+@media only screen and (min-width: 415px) and (max-width: 1024px){
+    .a1{
+        grid-template-columns: 1fr;
+        margin: 0px 1% 0px 1%;
+        border-radius: 0px;
+        height: 250px;
+        width: 98%;
+        margin-top: 1rem;
+    }
+    .imagem{
+        display: flex;
+        border-radius: 0 0 25px 25px;
+    justify-content: center;
+    padding-bottom: 1rem;
+    }
+    .imagem img{
+        border-radius: 0;
+    width: calc(618px / 1.4);
+    height: calc(393.43px / 1.4);
+    padding-bottom: 1rem;
+    }
+    .texto{
+        border-radius: 25px 25px 0 0;
+        text-align: center;
+        align-items: center;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .texto button{
+        margin-top: 10px;
+        margin-bottom: 1.8rem;
+        text-align: center;
+        font-size: 1.6rem;
+        position:static;
+        padding: 2px;
+        margin:0 auto;
+        width: auto;
+    }
+    .texto h1{
+        padding-top: 1rem;
+        padding-left: 0px;
+        font-size: 2rem;
+    }
+    .texto h2{
+        padding-left: 0px;
+        font-size: 1.4rem;
+        margin-bottom: 0.6rem;
+    }
+    .sobre{
+        padding-top: 22rem;
+    }
+    .sobre h2{
+        font-size: 1.8rem;
+    }
+    footer a{
+        font-size: 1.5rem;
+    }
+    footer .mapa iframe{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .servico h1{
+        font-size: 2rem;
+    }
+    .servico li{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 1025px){
+
+}
