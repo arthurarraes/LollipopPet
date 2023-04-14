@@ -171,6 +171,9 @@ header {
     font-family: 'Gilroy-Regular', sans-serif;
     text-align: center;
     padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.servico li{
     font-size: 1rem;
 }
 .servico {
