@@ -140,6 +140,7 @@ header {
     font-family: 'Gilroy-Regular', sans-serif;
     text-align: center;
     padding-bottom: 1rem;
+    color: rgb(155, 144, 45);
 }
 .sobre h2{
     font-family: 'Poppins', sans-serif;
@@ -176,6 +177,8 @@ header {
     text-align: center;
     padding-bottom: 1rem;
     font-size: 1.5rem;
+    font-weight: 600;
+    color: blue;
 }
 .servico li{
     font-size: 20px;
@@ -257,6 +260,8 @@ footer h2{
     text-align: center;
     padding-bottom: 1rem;
     font-size: 1.5rem;
+    font-weight: 600;
+    color: blue;
 }
 .produto img{
     width: 600px;
@@ -269,6 +274,39 @@ footer h2{
     font-weight: 500;
     padding-bottom: 5px;
     font-size: 20px;
+}
+.depoimentos{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+.depoimentos h1{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: blue;
+}
+.depoimento-texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: 500;
+    gap: 1rem;
+}
+.depoimento-texto .depoimento1 img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.depoimento-texto .depoimento1 h1{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: black;
+}
+.depoimento-texto .depoimento1 h2{
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 
@@ -344,6 +382,19 @@ footer h2{
     .produto img{
         width: 100%;
     }
+    .depoimento-texto{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .depoimento-texto .depoimento1 h1{
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: black;
+    }
+    .depoimento-texto .depoimento1 h2{
+        font-weight: 500;
+        font-size: 1rem;
+    }
 }
 @media only screen and (max-width:360px){
     .sobre{
@@ -397,6 +448,19 @@ footer h2{
         padding-left: 0px;
         font-size: 1.2rem;
         margin-bottom: 0.9rem;
+    }
+    footer{
+        grid-template-columns: 1fr;
+    }
+    footer a{
+        font-size: 1rem;
+    }
+    footer .mapa iframe{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    footer h2{
+        text-align: center;
     }
 }
 @media only screen and (min-width: 415px) and (max-width: 542px){
@@ -482,6 +546,22 @@ footer h2{
     }
     .produto h2{
         font-size: 1.3rem;
+    }
+    .depoimento-texto{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .depoimento-texto .depoimento1 h1{
+        font-weight: 600;
+        font-size: 1.4rem;
+        color: black;
+    }
+    .depoimento-texto .depoimento1 h2{
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    footer h2{
+        text-align: center;
     }
 }
 
