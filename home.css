@@ -408,16 +408,16 @@ footer h2{
     }
 
     .depoimento-texto .depoimento1 img{
-        background-color: rgb(250, 235, 247);
+        background-color: rgb(250, 241, 246);
     }
     .depoimento-texto .depoimento1 h1{
-        background-color: rgb(250, 235, 247);
+        background-color: rgb(250, 241, 246);
     }
     .depoimento-texto .depoimento1 h2{
-        background-color: rgb(250, 235, 247);
+        background-color: rgb(250, 241, 246);
     }
     .depoimento1{
-        background-color: rgb(250, 235, 247);
+        background-color: rgb(250, 241, 246);
     }
 }
 @media only screen and (max-width:360px){
