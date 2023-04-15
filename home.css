@@ -69,27 +69,27 @@ header {
     align-items: center;
     font-family: 'Poppins';
     margin: 0px 10rem 0px 10rem;
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(255, 234, 50);
     height: 550px;
     border-radius: 25px;
 }
 .texto{
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(255, 234, 50);
     text-align: center;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
 }
 .texto h1{
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(255, 234, 50);
     padding-left: 50px;
     font-family: 'Gilroy-Bold', sans-serif;
     font-size: 2.8rem;
-    color: rgb(252, 87, 197);
+    color: rgb(255, 37, 182);
     padding-bottom: 18px;
 }
 .texto h2{
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(255, 234, 50);
     padding-left: 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
@@ -100,12 +100,12 @@ header {
 
 .texto button{
     display: flex;
-    background-color: rgb(114, 234, 255);
+    background-color: rgb(0, 217, 255);
     font-size: 1.5rem;
     font-family: 'Gilroy-Regular', sans-serif;
     font-weight: bold;
     border-radius: 15px;
-    border-color: rgb(114, 234, 255);
+    border-color: rgb(0, 217, 255);
     padding: 5px;
     margin-top: 10px;
     position: absolute;
@@ -114,11 +114,11 @@ header {
 }
 
 .imagem{
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(255, 234, 50);
     border-radius: 25px;
 }
 .imagem img{
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(255, 234, 50);
     border-radius: 25px;
     display: flex;
     align-items: flex-end;
@@ -178,8 +178,23 @@ header {
     font-size: 1.5rem;
 }
 .servico li{
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 500;
+}
+.servico img{
+    display: flex;
+    margin:0 auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    width: 550px;
+}
+.servico span{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    color: rgb(138, 148, 0);
 }
 .servico {
     padding-top: 2rem;
@@ -320,6 +335,9 @@ footer h2{
     .servico li{
         font-size: 1rem;
     }
+    .servico img{
+        width: 95%;
+    }
     .produto h2{
         font-size: 1rem;
     }
@@ -453,6 +471,12 @@ footer h2{
     .servico li{
         font-size: 1.3rem;
     }
+    .servico span{
+        font-size: 1.4rem;
+    }
+    .servico img{
+        width: 95%;
+    }
     .produto img{
         width: 100%;
     }
@@ -462,5 +486,12 @@ footer h2{
 }
 
 @media only screen and (min-width: 1025px){
-
+    .nav-list li:hover {
+        border-bottom: 1;
+        border-bottom-style: solid;
+        border-color: rgb(255, 0, 170);
+    }
+    .nav-list a:hover{
+        color: rgb(255, 0, 170);
+    }
 }
