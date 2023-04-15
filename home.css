@@ -406,7 +406,11 @@ footer h2{
         font-weight: 500;
         font-size: 1rem;
     }
-
+}
+@media only screen and (max-width:360px){
+    .sobre{
+        margin-top: 14rem;
+    }
     .depoimento-texto .depoimento1 img{
         background-color: rgb(250, 241, 246);
     }
@@ -418,11 +422,6 @@ footer h2{
     }
     .depoimento1{
         background-color: rgb(250, 241, 246);
-    }
-}
-@media only screen and (max-width:360px){
-    .sobre{
-        margin-top: 14rem;
     }
 }
 @media only screen and (max-width:414px){
