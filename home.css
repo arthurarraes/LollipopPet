@@ -142,7 +142,7 @@ header {
     padding-bottom: 1rem;
 }
 .sobre h2{
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: justify;
     font-weight: 500;
     padding-bottom: 5px;
@@ -179,6 +179,7 @@ header {
 }
 .servico li{
     font-size: 1rem;
+    font-weight: 500;
 }
 .servico {
     padding-top: 2rem;
@@ -248,7 +249,7 @@ footer h2{
     border-radius: 15px;
 }
 .produto h2{
-    font-family: 'Gilroy-Regular', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: justify;
     font-weight: 500;
     padding-bottom: 5px;
@@ -319,7 +320,9 @@ footer h2{
     .servico li{
         font-size: 1rem;
     }
-
+    .produto h2{
+        font-size: 1rem;
+    }
     .produto img{
         width: 100%;
     }
