@@ -350,8 +350,8 @@ footer h2{
         border-radius: 0px;
         text-align: center;
         align-items: center;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
         margin-top: 1rem;
     }
     .texto button{
@@ -404,8 +404,8 @@ footer h2{
         border-radius: 25px 25px 0 0;
         text-align: center;
         align-items: center;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
     }
     .texto button{
         margin-top: 10px;
