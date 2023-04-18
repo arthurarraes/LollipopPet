@@ -9,6 +9,7 @@
     background-color: rgb(252, 248, 234);
     font-family: 'Poppins';
     scroll-behavior: smooth;
+    list-style: none;
 }
 header {
     background-color: #24252a;
@@ -70,7 +71,7 @@ header {
     font-family: 'Poppins';
     margin: 0px 10rem 0px 10rem;
     background-color: rgb(255, 234, 50);
-    height: 550px;
+    height: 706px;
     border-radius: 25px;
 }
 .texto{
@@ -122,8 +123,6 @@ header {
     border-radius: 25px;
     display: flex;
     align-items: flex-end;
-    width: 618px;
-    height: 393.43px;
 }
 .sobre{
     padding-top: 4rem;
@@ -183,12 +182,19 @@ header {
 .servico li{
     font-size: 20px;
     font-weight: 500;
+    background-color: #464646;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
 }
 .servico img{
     display: flex;
     margin:0 auto;
     border-radius: 10px;
     margin-bottom: 2rem;
+    margin-top: 1rem;
     width: 550px;
 }
 .servico span{
@@ -197,7 +203,8 @@ header {
     font-weight: 700;
     padding-bottom: 1rem;
     font-size: 1.2rem;
-    color: rgb(138, 148, 0);
+    color: rgb(238, 255, 0);
+    background-color: #464646;
 }
 .servico {
     padding-top: 2rem;
@@ -299,21 +306,25 @@ footer h2{
     text-align: center;
     margin-bottom: 10px;
     border-radius: 25px;
+    background-color: rgb(217, 250, 238);
 }
 .depoimento-texto .depoimento1 h1{
     font-weight: 600;
     font-size: 1.2rem;
     color: black;
     border-radius: 25px;
+    background-color: rgb(217, 250, 238);
 }
 .depoimento-texto .depoimento1 h2{
     font-weight: 500;
     font-size: 1rem;
     border-radius: 25px;
+    background-color: rgb(217, 250, 238);
 }
 .depoimento1{
     border-radius: 15px;
     padding: 10px;
+    background-color: rgb(217, 250, 238);
 }
 
 
@@ -382,6 +393,7 @@ footer h2{
     }
     .servico img{
         width: 95%;
+        border-radius: 25px;
     }
     .produto h2{
         font-size: 1rem;
@@ -414,7 +426,8 @@ footer h2{
         margin: 0px 1% 0px 1%;
         border-radius: 0px;
         height: 250px;
-        width: 98%;
+        width: 100%;
+        padding: 0;
         margin-top: 1rem;
     }
     .imagem{
@@ -425,8 +438,8 @@ footer h2{
     }
     .imagem img{
         border-radius: 0;
-    width: calc(618px / 2.5);
-    height: calc(393.43px / 2.5);
+    width: 198.4px;
+    height: 352.8px;
     padding-bottom: 1rem;
     }
     .texto{
@@ -469,6 +482,9 @@ footer h2{
     footer h2{
         text-align: center;
     }
+    .sobre{
+        margin-top: 24rem;
+    }
 }
 @media only screen and (min-width: 415px) and (max-width: 542px){
     .imagem{
@@ -492,8 +508,8 @@ footer h2{
     }
     .imagem img{
         border-radius: 0;
-    width: calc(618px / 1.4);
-    height: calc(393.43px / 1.4);
+        width: 330.6px;
+        height: 588px;
     padding-bottom: 1rem;
     }
     .texto{
@@ -524,7 +540,7 @@ footer h2{
         margin-bottom: 0.6rem;
     }
     .sobre{
-        margin-top: 22rem;
+        margin-top: 40rem;
     }
     .sobre h2{
         font-size: 1.3rem;
@@ -547,6 +563,7 @@ footer h2{
     }
     .servico img{
         width: 95%;
+        border-radius: 25px;
     }
     .produto img{
         width: 100%;
