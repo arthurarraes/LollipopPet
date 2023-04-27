@@ -184,17 +184,24 @@ header {
     font-weight: 500;
     padding: 10px;
     border-radius: 25px;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     color: rgb(0, 0, 0);
     text-align: center;
 }
-.servico img{
+.servico ul li img{
     display: flex;
     margin:0 auto;
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     margin-top: 1rem;
     width: 450px;
+}
+.servico ul img{
+    display: flex;
+    margin:0 auto;
+    border-radius: 10px;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 .servico span{
     font-family: 'Poppins', sans-serif;
@@ -389,7 +396,7 @@ footer h2{
     .servico li{
         font-size: 1rem;
     }
-    .servico img{
+    .servico ul li img{
         width: 95%;
         border-radius: 25px;
     }
@@ -569,7 +576,7 @@ footer h2{
     .servico span{
         font-size: 1.4rem;
     }
-    .servico img{
+    .servico ul li img{
         width: 95%;
         border-radius: 25px;
     }
