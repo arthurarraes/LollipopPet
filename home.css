@@ -13,7 +13,6 @@
 }
 header {
     background-color: #24252a;
-    box-shadow: 0px 3px 10px #464646;
 }
 
 .nav-bar {
@@ -97,10 +96,10 @@ header {
     font-weight: 500;
     text-align: center;
     color: rgb(76, 0, 255);
+    padding-bottom: 1rem;
 }
 
 .texto button{
-    display: flex;
     background-color: rgb(0, 217, 255);
     font-size: 1.5rem;
     font-family: 'Gilroy-Regular', sans-serif;
@@ -108,10 +107,7 @@ header {
     border-radius: 15px;
     border-color: rgb(0, 217, 255);
     padding: 5px;
-    margin-top: 10px;
-    position: absolute;
     animation: go-back 1s infinite alternate;
-    left: 23%;
 }
 
 .imagem{
@@ -126,8 +122,8 @@ header {
 }
 .sobre{
     padding-top: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 .sobre img{
     display: flex;
@@ -171,6 +167,10 @@ header {
     margin-bottom: 4rem;
     margin-top: 2rem;
 }
+.servico{
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
 .servico h1{
     font-family: 'Gilroy-Regular', sans-serif;
     text-align: center;
@@ -182,20 +182,19 @@ header {
 .servico li{
     font-size: 20px;
     font-weight: 500;
-    background-color: #464646;
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 1rem;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 .servico img{
     display: flex;
     margin:0 auto;
     border-radius: 10px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-top: 1rem;
-    width: 550px;
+    width: 450px;
 }
 .servico span{
     font-family: 'Poppins', sans-serif;
@@ -203,8 +202,7 @@ header {
     font-weight: 700;
     padding-bottom: 1rem;
     font-size: 1.2rem;
-    color: rgb(238, 255, 0);
-    background-color: #464646;
+    color: rgb(160, 172, 3);
 }
 .servico {
     padding-top: 2rem;
@@ -212,6 +210,7 @@ header {
     padding-right: 2rem;
     padding-bottom: 4rem;
 }
+
 .servico ul{
     list-style-type: disc;
 }
@@ -306,25 +305,23 @@ footer h2{
     text-align: center;
     margin-bottom: 10px;
     border-radius: 25px;
-    background-color: rgb(217, 250, 238);
 }
 .depoimento-texto .depoimento1 h1{
     font-weight: 600;
     font-size: 1.2rem;
     color: black;
     border-radius: 25px;
-    background-color: rgb(217, 250, 238);
 }
 .depoimento-texto .depoimento1 h2{
     font-weight: 500;
     font-size: 1rem;
     border-radius: 25px;
-    background-color: rgb(217, 250, 238);
+
 }
 .depoimento1{
     border-radius: 15px;
     padding: 10px;
-    background-color: rgb(217, 250, 238);
+
 }
 
 
@@ -364,6 +361,7 @@ footer h2{
     }
     .sobre{
         margin-top: 10rem;
+
     }
     .sobre h2{
         font-size: 1rem;
@@ -423,10 +421,9 @@ footer h2{
 @media only screen and (max-width:414px){
     .a1{
         grid-template-columns: 1fr;
-        margin: 0px 1% 0px 1%;
+        margin: 0px 0% 0px 0%;
         border-radius: 0px;
         height: 250px;
-        width: 98%;
         padding: 0;
         margin-top: 1rem;
     }
@@ -469,6 +466,10 @@ footer h2{
         font-size: 1.2rem;
         margin-bottom: 0.9rem;
     }
+    .servico{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
     footer{
         grid-template-columns: 1fr;
     }
@@ -483,7 +484,9 @@ footer h2{
         text-align: center;
     }
     .sobre{
-        margin-top: 24rem;
+        margin-top: 25rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 @media only screen and (min-width: 415px) and (max-width: 542px){
@@ -494,10 +497,9 @@ footer h2{
 @media only screen and (min-width: 415px) and (max-width: 1024px){
     .a1{
         grid-template-columns: 1fr;
-        margin: 0px 1% 0px 1%;
+        margin: 0px 0% 0px 0%;
         border-radius: 0px;
         height: 250px;
-        width: 98%;
         margin-top: 1rem;
     }
     .imagem{
@@ -541,6 +543,8 @@ footer h2{
     }
     .sobre{
         margin-top: 40rem;
+        padding-left: 4rem;
+    padding-right: 4rem;
     }
     .sobre h2{
         font-size: 1.3rem;
@@ -551,6 +555,10 @@ footer h2{
     footer .mapa iframe{
         margin-top: 1rem;
         width: 100%;
+    }
+    .servico{
+        margin-left: 1rem;
+    margin-right: 1rem;
     }
     .servico h1{
         font-size: 2rem;
@@ -597,5 +605,10 @@ footer h2{
     }
     .nav-list a:hover{
         color: rgb(255, 0, 170);
+    }
+    .servico li{
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 1rem;
     }
 }
